@@ -27,12 +27,17 @@ You also need to install the requirements file:
 ```
 pip install -r requirements.txt
 ```
+And you need to unpack the example training data.
+
+```
+gunzip mini_sparkify_event_data.json.gz
+```
 
 ## Files
 
 1. trained_models: Repository containing all the models which were trained during this project.  
 2. Sparkify.ipynb: The jupyter notebook which contains the cleaning process and the analyses made on the Google Playstore Dataset
-2. mini_sparkify_event_data.json : The data set used for the analysis. 
+2. mini_sparkify_event_data.json : The data set used for the analysis. (gzipped)
 3. requirements.txt: Contains all the libraries needed to work with this project.
 
 ## Usage
